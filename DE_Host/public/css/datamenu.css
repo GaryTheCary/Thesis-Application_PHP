@@ -1,0 +1,121 @@
+@font-face {
+  font-family: zagBold;
+  src: url("/assets/font/ZagBold.otf");
+}
+@font-face {
+  font-family: zagRegular;
+  src: url("/assets/font/ZagRegular.otf");
+}
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.section_container {
+  height: 100%;
+  *zoom: 1;
+  width: auto;
+  max-width: 50%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.section_container:before,
+.section_container:after {
+  content: '';
+  display: table;
+}
+.section_container:after {
+  clear: both;
+}
+.content_description {
+  height: 70%;
+}
+.upspaceholder {
+  height: 15%;
+}
+.row {
+  height: 132px;
+}
+.icon_section {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 28.999999999999996%;
+  margin-left: 0%;
+  margin-right: 0%;
+  overflow: hidden;
+  height: 100%;
+}
+.icon_section:before,
+.icon_section:after {
+  content: '';
+  display: table;
+}
+.icon_section:after {
+  clear: both;
+}
+.icon_section > img {
+  max-width: 132px;
+}
+.line_section {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 10%;
+  margin-left: 0%;
+  margin-right: 0%;
+  text-align: center;
+  height: 100%;
+}
+.line_section:before,
+.line_section:after {
+  content: '';
+  display: table;
+}
+.line_section:after {
+  clear: both;
+}
+.line_section > img {
+  max-width: 42px;
+  max-height: 72px;
+  vertical-align: middle;
+  text-align: center;
+}
+.title_section {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 61%;
+  margin-left: 0%;
+  margin-right: 0%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: table;
+  text-align: center;
+}
+.title_section:before,
+.title_section:after {
+  content: '';
+  display: table;
+}
+.title_section:after {
+  clear: both;
+}
+.title_section > p {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: zagRegular !important;
+  font-size: 1.2rem;
+  color: #282738;
+}
+.section_spaceholder {
+  height: 8.22%;
+}

@@ -1,0 +1,245 @@
+@font-face {
+  font-family: zagBold;
+  src: url("/assets/font/ZagBold.otf");
+}
+@font-face {
+  font-family: zagRegular;
+  src: url("/assets/font/ZagRegular.otf");
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  background: #282738;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.upspaceholder {
+  height: 10%;
+  width: 100%;
+}
+.title_section {
+  text-align: center;
+  display: table;
+  position: relative;
+  height: 4%;
+  width: 100%;
+}
+.title_section > p {
+  color: #c2adac;
+  font-family: zagRegular !important;
+  font-size: 1rem;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.logo {
+  width: 100%;
+  height: 6.5%;
+  text-align: center;
+}
+.logo > img {
+  width: auto;
+  height: 100%;
+}
+.form_section {
+  *zoom: 1;
+  width: auto;
+  max-width: 47%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  height: 67.5%;
+}
+.form_section:before,
+.form_section:after {
+  content: '';
+  display: table;
+}
+.form_section:after {
+  clear: both;
+}
+.spaceholder {
+  width: 100%;
+  height: 3%;
+}
+.line {
+  width: 100%;
+  height: 0.25%;
+  background-color: #c2adac;
+}
+.description_section {
+  font-family: zagBold !important;
+  color: #c2adac;
+  font-size: 0.75rem;
+  text-align: center;
+}
+.section {
+  width: 100%;
+  height: 5%;
+}
+.subsection {
+  width: 100%;
+  height: 2.5%;
+}
+.ncol,
+.mcol {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 38.2%;
+  margin-left: 0%;
+  margin-right: 3%;
+  height: 100%;
+}
+.ncol:before,
+.mcol:before,
+.ncol:after,
+.mcol:after {
+  content: '';
+  display: table;
+}
+.ncol:after,
+.mcol:after {
+  clear: both;
+}
+.ncol:last-child,
+.mcol:last-child {
+  margin-right: 0%;
+}
+.mcol {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 7.3%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.mcol:before,
+.mcol:after {
+  content: '';
+  display: table;
+}
+.mcol:after {
+  clear: both;
+}
+.mcol:last-child {
+  margin-right: 0%;
+}
+.scol {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 95.70833333333334%;
+  margin-left: 0%;
+  margin-right: 3%;
+  height: 100%;
+}
+.scol:before,
+.scol:after {
+  content: '';
+  display: table;
+}
+.scol:after {
+  clear: both;
+}
+.scol:last-child {
+  margin-right: 0%;
+}
+.tag {
+  font-size: 1rem;
+  font-family: zagRegular !important;
+  color: #c2adac;
+  display: table;
+  position: relative;
+  height: 100%;
+}
+.tag > p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+#form {
+  height: 98.75%;
+  width: 100%;
+  border: 1px solid #c2adac;
+}
+input {
+  background-color: transparent !important;
+  border-radius: 5px !important;
+  border: 1px solid #c2adac !important;
+  color: #c2adac !important;
+}
+.fill {
+  background-color: #af9e9e;
+}
+#verifyBtn,
+#browseBtn {
+  background-color: #c2adac !important;
+  height: 100% !important;
+  font-family: zagRegular !important;
+  color: #000 !important;
+}
+#browseBtn {
+  text-align: center;
+  width: 5%;
+}
+.agreement_section {
+  *zoom: 1;
+  width: auto;
+  max-width: 95%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  height: 28%;
+  font-family: zagRegular !important;
+  color: #c2adac;
+  overflow-y: auto;
+}
+.agreement_section:before,
+.agreement_section:after {
+  content: '';
+  display: table;
+}
+.agreement_section:after {
+  clear: both;
+}
+.agreement_section > h4 {
+  text-align: center;
+  font-family: zagRegular !important;
+}
+#submitsection {
+  text-align: center;
+  height: 9%;
+}
+#sumbitBtn {
+  width: 20%;
+  height: 50%;
+  background-color: #c2adac !important;
+  color: #fff !important;
+}
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.checkbox_section {
+  text-align: center;
+  background-color: #c2adac;
+  color: #282738;
+}
+.error > input {
+  border: 1px solid #f00 !important;
+}

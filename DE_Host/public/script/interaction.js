@@ -1,0 +1,1 @@
+(function(){var e;e(),e=function(){var e,t,n,d;return d=document.getElementById("profile"),t=document.getElementById("footwear"),e=document.getElementById("dataD3"),n=document.getElementById("model3D")}}).call(this);

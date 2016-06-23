@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.8"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "bootstrap-sass": "^3.0.0",
+    "create-if-not-exist": "0.0.2",
+    "csv-write-stream": "^1.0.0",
+    "express": "^4.13.4",
+    "fs": "0.0.2",
+    "ioredis": "^1.15.0",
+    "laravel-elixir": "^3.0.0",
+    "mysql": "felixge/node-mysql",
+    "node-tsv-json": "^0.2.1",
+    "querystring": "^0.2.0",
+    "socket.io": "^1.4.5",
+    "sparkcloud": "^0.3.0",
+    "tsv": "^0.2.0",
+    "url": "^0.11.0"
+  }
+}

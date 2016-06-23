@@ -1,0 +1,263 @@
+@font-face {
+  font-family: zagBold;
+  src: url("/assets/font/ZagBold.otf");
+}
+@font-face {
+  font-family: zagRegular;
+  src: url("/assets/font/ZagRegular.otf");
+}
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.container {
+  *zoom: 1;
+  width: auto;
+  max-width: 80%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100%;
+}
+.container:before,
+.container:after {
+  content: '';
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.upspaceholder {
+  height: 6.25%;
+}
+.supervisor {
+  height: 24%;
+  text-align: center;
+}
+.supervisor_img {
+  height: 80%;
+  *zoom: 1;
+  width: auto;
+  max-width: 25%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.supervisor_img:before,
+.supervisor_img:after {
+  content: '';
+  display: table;
+}
+.supervisor_img:after {
+  clear: both;
+}
+.supervisor_img > img {
+  max-width: 130px;
+}
+.description {
+  padding: 0.5%;
+  height: 20%;
+  *zoom: 1;
+  width: auto;
+  max-width: 20%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  font-family: zagRegular !important;
+  font-size: 1rem;
+  color: #282738;
+}
+.description:before,
+.description:after {
+  content: '';
+  display: table;
+}
+.description:after {
+  clear: both;
+}
+#nameholder {
+  font-family: zagRegular !important;
+  font-size: 1rem;
+  color: #fc0369;
+}
+.smallspaceholder {
+  height: 1.25%;
+}
+.function_section {
+  text-align: right;
+}
+.changecolor {
+  background-color: #fc0369 !important;
+  border-radius: 0.1rem;
+}
+.client_section {
+  height: 56.25%;
+  *zoom: 1;
+  width: auto;
+  max-width: 100%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.client_section:before,
+.client_section:after {
+  content: '';
+  display: table;
+}
+.client_section:after {
+  clear: both;
+}
+.row {
+  height: 33.3%;
+}
+.coloumI {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 25%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color: #38384f;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+.coloumI:before,
+.coloumI:after {
+  content: '';
+  display: table;
+}
+.coloumI:after {
+  clear: both;
+}
+.coloumII {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 25%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color: #282738;
+  height: 100%;
+}
+.coloumII:before,
+.coloumII:after {
+  content: '';
+  display: table;
+}
+.coloumII:after {
+  clear: both;
+}
+.coloumIII {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 25%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color: #1d1d28;
+  height: 100%;
+}
+.coloumIII:before,
+.coloumIII:after {
+  content: '';
+  display: table;
+}
+.coloumIII:after {
+  clear: both;
+}
+.coloumIV {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 25%;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color: #121219;
+  height: 100%;
+}
+.coloumIV:before,
+.coloumIV:after {
+  content: '';
+  display: table;
+}
+.coloumIV:after {
+  clear: both;
+}
+.userIMG {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: 0%;
+  overflow: hidden;
+  height: 100%;
+}
+.userIMG:before,
+.userIMG:after {
+  content: '';
+  display: table;
+}
+.userIMG:after {
+  clear: both;
+}
+#profile_pic {
+  max-width: 70px;
+  vertical-align: middle;
+  text-align: center;
+}
+.username {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: 0%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: table;
+}
+.username:before,
+.username:after {
+  content: '';
+  display: table;
+}
+.username:after {
+  clear: both;
+}
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+#nameplacement {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-family: zagRegular !important;
+  font-size: 1.05rem;
+  color: #af9e9e;
+}

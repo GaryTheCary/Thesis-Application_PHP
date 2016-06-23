@@ -1,0 +1,23 @@
+@font-face {
+  font-family: zagBold;
+  src: url("/assets/font/ZagBold.otf");
+}
+@font-face {
+  font-family: zagRegular;
+  src: url("/assets/font/ZagRegular.otf");
+}
+rect.bordered {
+  stroke: #282738;
+  stroke-width: 1px;
+}
+text.mono {
+  font-size: 9pt;
+  font-family: zagRegular !important;
+  fill: #c2adac;
+}
+text.axis-workweek {
+  fill: #c2adac;
+}
+text.axis-worktime {
+  fill: #c2adac;
+}

@@ -1,0 +1,37 @@
+@import 'jeet'
+
+// Variables
+
+lightblue = #A1FEFF
+lightgreen = #B2F8ED
+bpsplit = 1/10
+awesomeDarkPurple = #282738
+awesomeLightPurple = #38384F
+awesomeBrown = #C2ADAC
+awesomeDarkBrown = #AF9E9E
+fancypink = #fc0369
+awesomeDarkPurpleII = #1d1d28
+awesomeDarkPurpleIII = #121219
+awesomeDarkPurpleIV = #212133
+// Functions
+gradient()
+  background -webkit-repeating-linear-gradient(lightblue, lightgreen) !important
+  background -o-repeating-linear-gradient(lightblue, lightgreen) !important
+  background -moz-linear-gradient(lightblue, lightgreen) !important
+  background linear-gradient(lightblue, lightgreen) !important
+
+z-index()
+	z-index 100 
+
+@font-face
+	font-family zagBold
+	src url(/assets/font/ZagBold.otf)
+@font-face
+	font-family zagRegular
+	src url(/assets/font/ZagRegular.otf)	
+	
+fontBold()
+	font-family zagBold !important
+
+fontRegular()
+	font-family zagRegular !important	

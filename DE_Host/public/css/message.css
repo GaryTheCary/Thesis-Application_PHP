@@ -1,0 +1,39 @@
+@font-face {
+  font-family: zagBold;
+  src: url("/assets/font/ZagBold.otf");
+}
+@font-face {
+  font-family: zagRegular;
+  src: url("/assets/font/ZagRegular.otf");
+}
+.spaceHolder {
+  height: 22%;
+}
+.messageContainer {
+  *zoom: 1;
+  width: auto;
+  max-width: 60%;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.messageContainer:before,
+.messageContainer:after {
+  content: '';
+  display: table;
+}
+.messageContainer:after {
+  clear: both;
+}
+.form-group {
+  font-family: zagRegular !important;
+  color: #38384f;
+}
+.alert.alert-danger {
+  font-family: zagRegular !important;
+  padding: 5px;
+  margin-bottom: 10px;
+}

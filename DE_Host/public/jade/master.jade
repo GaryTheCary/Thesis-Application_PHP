@@ -1,0 +1,37 @@
+doctype html
+html
+	head
+		title DE
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		link(rel="stylesheet" href="/css/app.css" type="text/css")
+		@yield('scripts_stylesheets')	
+	body
+		.appcontainer
+			.leftmenu.animated.slideInLeft
+				.profileIMG
+					img(src="/assets/user/profile.png" id="userprofile")
+					.nameholder Max Diamegio
+				.navMenu
+					#profile.userProfile
+						.icon
+							img(src="/assets/logo/profileicon.svg")
+						.description 
+							p User Profile
+					#footwear.footwearData
+						.icon
+							img(src="/assets/logo/footwearicon.svg")
+						.description
+							p Footwear Data  
+					#dataD3.dataAnalysis
+						.icon
+							img(src="/assets/logo/dataicon.svg")
+						.description
+							p Data Analysis
+					#model3D.modelling
+						.icon
+							img(src="/assets/logo/modelicon.svg")
+						.description
+							p Modelling
+			.contentpoll.animated.slideInUp
+				@yield('content')				   			  	

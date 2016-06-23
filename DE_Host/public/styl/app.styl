@@ -1,0 +1,274 @@
+@import 'jeet'
+@import 'util.styl'
+
+menusplit = 1/5
+bppoint = 1120px
+
+// For the selecting porpose
+
+.selected 
+	background-color awesomeDarkPurpleIV
+
+.unselected 
+	background-color awesomeLightPurple
+
+a
+	text-decoration none
+
+a:hover
+	text-decoration none
+
+a:hover > div
+	background-color awesomeDarkPurpleIV
+
+// When The resolution is over 1150px
+@media screen and (min-width: 1150px) 
+	body
+		width 100%
+		height 100%
+		margin 0
+		position absolute
+		
+	.appcontainer
+		height 100%
+		width 100%
+
+	.leftmenu
+		span(menusplit)
+		background awesomeDarkPurple !important
+		height 100%
+		padding 0
+		margin 0
+	.profileIMG
+		height 25%
+		text-align center	
+	.profileIMG > img
+		width 35%
+		margin-top 13.65%
+	.contentpoll
+		span(4/5)
+		height 100%
+		padding 0
+		margin 0			
+	.nameholder
+		font-size 1.0rem
+		fontRegular()
+		color awesomeBrown 
+		text-align center
+	.navMenu
+		height 54%
+	.userProfile
+		height 20%
+
+	.icon
+		span(1/2)
+		height 100%
+		overflow hidden
+		text-align center
+	.icon > img
+		margin-top 10%
+		width 30%	
+	.description
+		span(1/2)
+		height 100%
+		overflow hidden
+		text-align left
+		font-size 1.00rem
+		fontRegular()
+		color awesomeBrown
+	.description > p
+		margin-top 19% 
+
+	.footwearData
+		@extends .userProfile
+		
+	.footwearData > .icon > img
+		margin-top 15% !important
+
+	.dataAnalysis
+		@extends .userProfile
+	.modelling
+		@extends .dataAnalysis
+	
+	.messagesection
+		@extends .dataAnalysis
+	.logoutsection
+		@extends  .dataAnalysis
+
+	.spaceholder
+		height 9%
+	.userTitle
+		height 18%
+		padding 0
+		margin 0
+		text-align center
+	.userTitle > img
+		width 9.50%
+	.poolnameholder
+		@extends .nameholder
+		color awesomeDarkPurple	
+	.mediumspaceholder
+		height 6%
+	.infopool
+		center(76.9975%)
+		height 52.5%
+	.infoTitle
+		height 8.57%
+		width 16.7%
+		background-color awesomeBrown
+		text-align center
+		fontRegular()
+		font-size 1.25rem
+		color white
+	.infoTitle > p
+		padding-top 2.2%
+	.smallspaceholder
+		height 2%
+	.basicInfo
+		font-size 1.25rem
+		fontRegular()
+		color awesomeDarkPurple
+	.linetwo
+		height 2%				
+	.linetwo > img
+		margin-bottom 2%
+
+	.productInfo
+		@extends .basicInfo
+	.editBTN
+		text-align right
+	#editbtn
+		background-color awesomeBrown !important
+		fontRegular()
+		border-radius 0.2rem
+
+// When the resolution is below 1150px
+@media screen and (max-width: 1149px)
+	body
+		margin 0
+		width 1280px
+		height 100%
+		position fixed
+	.appcontainer
+		height 100%
+		width 100% 
+		position fixed
+	.leftmenu
+		height 100%
+		position fixed
+		background awesomeDarkPurple !important
+		height 100%
+		padding 0
+		margin 0 
+		width 216px	
+		overflow hidden
+	.profileIMG
+		height 187px
+		text-align center	
+	.profileIMG > img
+		width 95px
+		margin-top 36px
+		overflow hidden
+	.contentpoll
+		height 100%
+		width 1036px
+		padding 0
+		margin-left 108px
+	.nameholder
+		font-size 1.0em
+		fontRegular()
+		color awesomeBrown 
+		text-align center
+	.navMenu
+		height 350px
+	.userProfile
+		height 20%
+		overflow hidden
+	.icon
+		span(1/2)
+		height 100%
+		overflow hidden
+		text-align center
+	.icon > img
+		margin-top 18%
+		width 30%	
+	.description
+		span(1/2)
+		height 100%
+		overflow hidden
+		text-align left
+		font-size 1.00rem
+		fontRegular()
+		color awesomeBrown
+	.description > p
+		margin-top 21%
+		
+	.footwearData
+		@extends .userProfile
+		
+	.footwearData > .icon > img
+		margin-top 19% !important
+
+	.dataAnalysis
+		@extends .userProfile
+	.modelling
+		@extends .dataAnalysis
+	
+	.messagesection
+		@extends .dataAnalysis
+	.logoutsection
+		@extends  .dataAnalysis
+	 
+	.spaceholder
+		height 72px
+	.userTitle
+		height 144px
+		padding 0
+		margin 0
+		text-align center
+	.userTitle > img
+		width 95px
+	.poolnameholder
+		@extends .nameholder
+		color awesomeDarkPurple
+	.mediumspaceholder
+		height 0px
+	.infopool
+		center(692px)
+		height 361px
+		overflow hidden
+		padding 0
+	.infoTitle
+		height 32px
+		width 140px
+		background-color awesomeBrown
+		text-align center
+		fontRegular()
+		font-size 1.25em
+		color white
+	.infoTitle > p
+		padding-top 2.2%
+	.smallspaceholder
+		height 2%
+	.basicInfo
+		font-size 1.25rem
+		fontRegular()
+		color awesomeDarkPurple
+	.linetwo
+		height 2%				
+	.linetwo > img
+		margin-bottom 2%
+
+	.productInfo
+		@extends .basicInfo
+	.editBTN
+		text-align right
+	#editbtn
+		background-color awesomeBrown !important
+		fontRegular()
+		border-radius 0.2rem
+	.threeDbg
+		z-index -100
+		background cover	
+								
+	 	

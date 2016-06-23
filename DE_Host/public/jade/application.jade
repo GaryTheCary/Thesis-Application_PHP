@@ -1,0 +1,79 @@
+doctype html
+html
+  head
+    title Thesis App
+    meta(charset="utf-8")
+    //- Extented Library  
+    script(type="text/javascript" src="/bower/jquery/dist/jquery.js")
+    script(type="text/javascript" src="/bower/bootstrap/dist/js/bootstrap.js")
+    script(type="text/javascript" src="/bower/semantic/dist/semantic.js")
+    script(type="text/javascript" src="/bower/three.js/build/three.min.js")
+    script(type="text/javascript" src="/bower/three.js/examples/js/Detector.js")
+    script(type="text/javascript" src="/bower/three.js/examples/js/libs/stats.min.js")    
+    link(rel="stylesheet" type="text/css" href="/bower/semantic/dist/semantic.css")
+    link(rel="stylesheet" type="text/css" href="/bower/animate.css/animate.css")
+    link(rel="stylesheet" type="text/css" href="/css/animation.css")
+    link(rel="stylesheet" type="text/css" href="/css/app.css")
+    //- Own Script
+  body
+    .appcontainer
+      .leftmenu.animated.slideInLeft   
+        .profileIMG
+          img(src="/assets/user/profile.png" id="userprofile")
+          .nameholder Max Diamegio
+        .navMenu
+          #profile.userProfile
+            .icon
+              img(src="/assets/logo/profileicon.svg")
+            .description 
+              p User Profile  
+          #footwear.footwearData
+            .icon
+              img(src="/assets/logo/footwearicon.svg")
+            .description
+              p Footwear Data  
+          #dataD3.dataAnalysis
+            .icon
+              img(src="/assets/logo/dataicon.svg")
+            .description
+              p Data Analysis
+          #model3D.modelling
+            .icon
+              img(src="/assets/logo/modelicon.svg")
+            .description
+              p Modelling      
+      .contentpoll.animated.slideInUp
+        .spaceholder
+        .userTitle
+          img(src="/assets/user/profile.png" id="userprofile_poll")
+          .poolnameholder Max Diamegio
+        .mediumspaceholder
+        .infopool
+          .line
+            img(src="/assets/logo/line.svg")
+          .infoTitle
+            p Basic Information
+          .smallspaceholder  
+          .basicInfo
+            #userid User ID: #150798AZ
+            #email Email: maxdiemegio98@gmail.com
+            #phone Phone: 416-xxx-xxxx
+            #age Age: 45
+            #sex Sex: Female
+          .linetwo
+            img(src="/assets/logo/line.svg")
+          .infoTitle
+            p Prev Product Info
+          .smallspaceholder
+          .productInfo
+            #color Color: Fushion (Brown, White)
+            #angel Angel: 132.7
+            #material Material: Fushion (Leather, PCA)
+            #height Height: 17cm
+            #length Length: 21cm
+            #width Width: 7cm
+          .linetwo 
+            img(src="/assets/logo/line.svg")
+          .editBTN
+            button(id="editbtn" class="ui mini olive button hvr-shutter-out-horizontal") EDIT      
+                

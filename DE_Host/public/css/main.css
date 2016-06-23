@@ -1,0 +1,129 @@
+@font-face {
+  font-family: zagBold;
+  src: url("/assets/font/ZagBold.otf");
+}
+@font-face {
+  font-family: zagRegular;
+  src: url("/assets/font/ZagRegular.otf");
+}
+.navigation {
+  width: 100%;
+  height: 32%;
+  position: relative;
+}
+.logoholder {
+  width: 100%;
+  height: 8%;
+}
+.logoholder > img {
+  width: 100%;
+  height: 100%;
+}
+.loginholder {
+  height: 2.25%;
+  margin-top: 1.69%;
+  margin-bottom: 1rem;
+  color: #c2adac;
+  font-family: zagRegular !important;
+}
+.messageHolder {
+  font-family: zagRegular !important;
+  color: #38384f;
+  text-align: center;
+}
+.loginholder > p {
+  margin-left: 38.4%;
+}
+#formcell {
+  width: 23.8%;
+  margin-left: 38.4% !important;
+  margin-bottom: 0.5rem !important;
+}
+input {
+  font-family: zagRegular !important;
+}
+#loginBTN {
+  background-color: #c2adac !important;
+  font-family: zagRegular !important;
+  width: 100%;
+}
+.optionsfield {
+  height: 2%;
+  width: 23.8%;
+  font-family: zagRegular !important;
+  margin-left: 38.4%;
+}
+#signup {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: 0%;
+  text-align: right;
+  font-family: zagRegular !important;
+  color: #c2adac;
+}
+#signup:before,
+#signup:after {
+  content: '';
+  display: table;
+}
+#signup:after {
+  clear: both;
+}
+#forgotpassword {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: 0%;
+  font-family: zagRegular !important;
+  color: #c2adac;
+  padding-right: 0;
+}
+#forgotpassword:before,
+#forgotpassword:after {
+  content: '';
+  display: table;
+}
+#forgotpassword:after {
+  clear: both;
+}
+#forgotpassword > a {
+  color: #c2adac !important;
+}
+#forgotpassword > a:hover {
+  color: #af9e9e !important;
+  text-decoration: underline;
+}
+#signup > a {
+  color: #c2adac !important;
+}
+#signup > a:hover {
+  color: #af9e9e !important;
+  text-decoration: underline;
+}
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.threeDbg {
+  position: fixed;
+}
+.merror > input {
+  background-color: #ffffe0 !important;
+  border: 1px solid #f00 !important;
+}
+.merror_list {
+  color: #c2adac;
+  text-align: center;
+}
+.sSpaceholder {
+  wdth: 100%;
+  height: 2%;
+}

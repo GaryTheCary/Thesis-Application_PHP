@@ -1,0 +1,417 @@
+@font-face {
+  font-family: zagBold;
+  src: url("/assets/font/ZagBold.otf");
+}
+@font-face {
+  font-family: zagRegular;
+  src: url("/assets/font/ZagRegular.otf");
+}
+.selected {
+  background-color: #212133;
+}
+.unselected {
+  background-color: #38384f;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:hover > div {
+  background-color: #212133;
+}
+@media screen and (min-width: 1150px) {
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+  }
+  .appcontainer {
+    height: 100%;
+    width: 100%;
+  }
+  .leftmenu {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 20%;
+    margin-left: 0%;
+    margin-right: 0%;
+    background: #282738 !important;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .leftmenu:before,
+  .leftmenu:after {
+    content: '';
+    display: table;
+  }
+  .leftmenu:after {
+    clear: both;
+  }
+  .profileIMG {
+    height: 25%;
+    text-align: center;
+  }
+  .profileIMG > img {
+    width: 35%;
+    margin-top: 13.65%;
+  }
+  .contentpoll {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 80%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .contentpoll:before,
+  .contentpoll:after {
+    content: '';
+    display: table;
+  }
+  .contentpoll:after {
+    clear: both;
+  }
+  .nameholder,
+  .poolnameholder {
+    font-size: 1rem;
+    font-family: zagRegular !important;
+    color: #c2adac;
+    text-align: center;
+  }
+  .navMenu {
+    height: 54%;
+  }
+  .userProfile,
+  .footwearData,
+  .dataAnalysis,
+  .modelling,
+  .messagesection,
+  .logoutsection {
+    height: 20%;
+  }
+  .icon {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  .icon:before,
+  .icon:after {
+    content: '';
+    display: table;
+  }
+  .icon:after {
+    clear: both;
+  }
+  .icon > img {
+    margin-top: 10%;
+    width: 30%;
+  }
+  .description {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 100%;
+    overflow: hidden;
+    text-align: left;
+    font-size: 1rem;
+    font-family: zagRegular !important;
+    color: #c2adac;
+  }
+  .description:before,
+  .description:after {
+    content: '';
+    display: table;
+  }
+  .description:after {
+    clear: both;
+  }
+  .description > p {
+    margin-top: 19%;
+  }
+  .footwearData > .icon > img {
+    margin-top: 15% !important;
+  }
+  .spaceholder {
+    height: 9%;
+  }
+  .userTitle {
+    height: 18%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .userTitle > img {
+    width: 9.5%;
+  }
+  .poolnameholder {
+    color: #282738;
+  }
+  .mediumspaceholder {
+    height: 6%;
+  }
+  .infopool {
+    *zoom: 1;
+    width: auto;
+    max-width: 76.9975%;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    height: 52.5%;
+  }
+  .infopool:before,
+  .infopool:after {
+    content: '';
+    display: table;
+  }
+  .infopool:after {
+    clear: both;
+  }
+  .infoTitle {
+    height: 8.57%;
+    width: 16.7%;
+    background-color: #c2adac;
+    text-align: center;
+    font-family: zagRegular !important;
+    font-size: 1.25rem;
+    color: #fff;
+  }
+  .infoTitle > p {
+    padding-top: 2.2%;
+  }
+  .smallspaceholder {
+    height: 2%;
+  }
+  .basicInfo,
+  .productInfo {
+    font-size: 1.25rem;
+    font-family: zagRegular !important;
+    color: #282738;
+  }
+  .linetwo {
+    height: 2%;
+  }
+  .linetwo > img {
+    margin-bottom: 2%;
+  }
+  .editBTN {
+    text-align: right;
+  }
+  #editbtn {
+    background-color: #c2adac !important;
+    font-family: zagRegular !important;
+    border-radius: 0.2rem;
+  }
+}
+@media screen and (max-width: 1149px) {
+  body {
+    margin: 0;
+    width: 1280px;
+    height: 100%;
+    position: fixed;
+  }
+  .appcontainer {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+  }
+  .leftmenu {
+    height: 100%;
+    position: fixed;
+    background: #282738 !important;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    width: 216px;
+    overflow: hidden;
+  }
+  .profileIMG {
+    height: 187px;
+    text-align: center;
+  }
+  .profileIMG > img {
+    width: 95px;
+    margin-top: 36px;
+    overflow: hidden;
+  }
+  .contentpoll {
+    height: 100%;
+    width: 1036px;
+    padding: 0;
+    margin-left: 108px;
+  }
+  .nameholder,
+  .poolnameholder {
+    font-size: 1em;
+    font-family: zagRegular !important;
+    color: #c2adac;
+    text-align: center;
+  }
+  .navMenu {
+    height: 350px;
+  }
+  .userProfile,
+  .footwearData,
+  .dataAnalysis,
+  .modelling,
+  .messagesection,
+  .logoutsection {
+    height: 20%;
+    overflow: hidden;
+  }
+  .icon {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  .icon:before,
+  .icon:after {
+    content: '';
+    display: table;
+  }
+  .icon:after {
+    clear: both;
+  }
+  .icon > img {
+    margin-top: 18%;
+    width: 30%;
+  }
+  .description {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    width: 50%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 100%;
+    overflow: hidden;
+    text-align: left;
+    font-size: 1rem;
+    font-family: zagRegular !important;
+    color: #c2adac;
+  }
+  .description:before,
+  .description:after {
+    content: '';
+    display: table;
+  }
+  .description:after {
+    clear: both;
+  }
+  .description > p {
+    margin-top: 21%;
+  }
+  .footwearData > .icon > img {
+    margin-top: 19% !important;
+  }
+  .spaceholder {
+    height: 72px;
+  }
+  .userTitle {
+    height: 144px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  .userTitle > img {
+    width: 95px;
+  }
+  .poolnameholder {
+    color: #282738;
+  }
+  .mediumspaceholder {
+    height: 0px;
+  }
+  .infopool {
+    *zoom: 1;
+    width: auto;
+    max-width: 692px;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+    height: 361px;
+    overflow: hidden;
+    padding: 0;
+  }
+  .infopool:before,
+  .infopool:after {
+    content: '';
+    display: table;
+  }
+  .infopool:after {
+    clear: both;
+  }
+  .infoTitle {
+    height: 32px;
+    width: 140px;
+    background-color: #c2adac;
+    text-align: center;
+    font-family: zagRegular !important;
+    font-size: 1.25em;
+    color: #fff;
+  }
+  .infoTitle > p {
+    padding-top: 2.2%;
+  }
+  .smallspaceholder {
+    height: 2%;
+  }
+  .basicInfo,
+  .productInfo {
+    font-size: 1.25rem;
+    font-family: zagRegular !important;
+    color: #282738;
+  }
+  .linetwo {
+    height: 2%;
+  }
+  .linetwo > img {
+    margin-bottom: 2%;
+  }
+  .editBTN {
+    text-align: right;
+  }
+  #editbtn {
+    background-color: #c2adac !important;
+    font-family: zagRegular !important;
+    border-radius: 0.2rem;
+  }
+  .threeDbg {
+    z-index: 100;
+    background: cover;
+  }
+}

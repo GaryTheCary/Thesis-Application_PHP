@@ -1,0 +1,123 @@
+@import 'jeet'
+@import 'util.styl'
+
+body 
+	background-color awesomeDarkPurpleIV
+
+.analysis_area
+	center(77%)
+	height 100%
+	overflow hidden
+
+.visulization_section
+	width 100%
+	height 70%
+	margin 0px
+	padding 0px
+	overflow hidden
+	
+.upspaceholder
+	height 10.5%
+	width 100%
+	postion relative
+
+.bar_title
+	height 7.5%
+	width 100%
+	color awesomeBrown
+	fontRegular()
+	font-size 1.5rem
+
+.title
+	span(3/7)
+
+.checkbox_panel
+	span(4/7)
+	fontRegular()
+
+.ui.checkbox > label
+	color awesomeBrown !important
+	font-size 1.0rem !important
+
+.checkbox_field 
+	span(1/7)
+
+.vertical_line_holder 
+	span(1/28)
+	text-align center
+
+.vertical_line_holder > img
+	width 2.55px
+
+.info_field
+	span(7/28)
+
+.vertical_section
+	height 33.3%
+	width 100%
+	font-size 1.0rem !important
+.vertical_section > img
+	width 20px	
+
+.information_section
+	@extends .visulization_section
+	height 30%
+
+.description_pool
+	center(80%)
+	height 100%
+
+.col
+	span(1/3)
+	fontRegular()
+	font-size 1.3rem
+	color awesomeBrown
+	height 100%
+	display table
+	position relative
+	overflow hidden
+
+.col > .wrapper
+	display table-cell
+	vertical-align middle
+	
+.spaceholder
+	height 7%
+	width 100%
+	//background-color yellow
+
+.graph_section
+	height 75%
+	width 100%
+	//background-color red
+
+// Here is for the d3 style
+
+.data_graph
+	display block
+
+.visualpart
+	font-size 0.75rem
+	fontRegular()
+	color awesomeBrown
+
+.axis > line
+	fill none
+	stroke awesomeBrown
+	shape-rendering crispEdges
+
+.axis > path
+	fill none
+	stroke awesomeBrown
+	shape-rendering crispEdges		
+text
+	fill awesomeBrown !important
+	fontRegular() !important
+	font-size 0.55rem	
+.browser > text
+	text-anchor end	
+
+.line 
+	fill none
+	stroke awesomeBrown
+	stroke-width 1.5px								

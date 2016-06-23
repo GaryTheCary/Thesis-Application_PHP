@@ -1,0 +1,38 @@
+doctype html
+html
+  head
+    title DE
+    meta(charset="utf-8")
+    //- Extented Library  
+    script(type="text/javascript" src="/bower/jquery/dist/jquery.js")
+    script(type="text/javascript" src="/bower/bootstrap/dist/js/bootstrap.js")
+    script(type="text/javascript" src="/bower/semantic/dist/semantic.js")
+    script(type="text/javascript" src="/bower/Snap.svg/dist/snap.svg.js")
+    script(type="text/javascript" src="/bower/three.js/build/three.min.js")
+    script(type="text/javascript" src="/bower/three.js/examples/js/Detector.js")
+    script(type="text/javascript" src="/bower/three.js/examples/js/libs/stats.min.js")  
+    link(rel="stylesheet" type="text/css" href="/css/main.css")
+    link(rel="stylesheet" type="text/css" href="/css/animation.css")
+    link(rel="stylesheet" type="text/css" href="/bower/semantic/dist/semantic.css")
+    link(rel="stylesheet" type="text/css" href="/bower/animate.css/animate.css")
+
+  body
+    script(type="text/javascript" src="/script/background.js") 
+    div(class="navigation")  
+    svg(class="logoholder animated fadeInDown")
+    script(type="text/javascript" src="/script/svg.js")  
+    div(class="loginholder animated fadeInDown")
+      p DESIGNER LOGIN
+    div(class="formfield animated fadeInDown")
+      form(class="ui form" action="" method="post")
+        div(class="field animated fadeInDown" id="formcell")
+          input(type="text" name="userID_email" placeholder="USER ID / EMAIL")
+        div(class="field animated fadeInDown" id="formcell")
+          input(type="text" name="password" placeholder="PASSWORD")
+        div(class="field animated fadeInDown" id="formcell")
+          button(type="submit" class="ui olive button hvr-shutter-out-horizontal" id="loginBTN") LOGIN
+    div(class="optionsfield animated fadeInDown")
+      div(class="animated fadeInDown" id="forgotpassword") FORGOT PASSWORD?
+      div(class="animated fadeInDown" id="signup") SIGN UP?
+ 
+            

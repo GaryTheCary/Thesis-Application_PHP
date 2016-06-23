@@ -1,0 +1,155 @@
+@import 'jeet'
+@import 'util.styl'
+
+// edit()
+
+body
+	width 100%
+	height 100%
+	margin 0
+	position absolute
+	background awesomeDarkPurple
+
+.container
+	width 100%
+	height 100%
+
+.upspaceholder
+	height 10%
+	width 100%	
+
+.title_section
+	text-align center
+	display table
+	position relative
+	height 4%
+	width 100%
+.title_section > p
+	
+	color awesomeBrown
+	fontRegular()
+	font-size 1.0rem
+	display table-cell
+	vertical-align middle
+	text-align center
+		
+.logo
+	width 100%
+	height 6.5%
+	text-align center
+.logo > img
+	width auto
+	height 100%
+
+.form_section
+	center(47%)
+	height 67.5%
+	
+.spaceholder
+	width 100%
+	height 3%
+
+.line
+	width 100%
+	height 0.25%
+	background-color awesomeBrown 
+
+.description_section
+	fontBold()
+	color awesomeBrown
+	font-size 0.75rem
+	text-align center
+	
+.section 	
+	width 100%
+	height 5%	
+.subsection
+	width 100%
+	height 2.5%	
+
+.ncol
+	column(2/5)
+	height 100%	
+
+.mcol 
+	@extends .ncol
+	column(1/10)
+.scol
+	column(11.5/12)
+	height 100%
+	
+.tag
+	font-size 1.0rem
+	fontRegular()
+	color awesomeBrown
+	display table
+	position relative
+	height 100%
+.tag > p
+	display table-cell
+	vertical-align middle
+	text-align center	
+	
+#form 
+	height 98.75%
+	width 100%
+	border 1px solid awesomeBrown
+input 
+	background-color transparent !important
+	border-radius 5px !important
+	border 1px solid awesomeBrown !important
+	color awesomeBrown !important
+
+.fill
+	background-color awesomeDarkBrown
+
+#verifyBtn
+	background-color awesomeBrown !important
+	height 100% !important
+	fontRegular()
+	color black !important
+
+#browseBtn
+	@extend #verifyBtn
+	text-align center
+	width 5%
+.agreement_section
+	center(95%)
+	height 28%
+	fontRegular()
+	color awesomeBrown
+	overflow-y auto
+	
+.agreement_section > h4
+	text-align center
+	fontRegular()
+	
+#submitsection
+	text-align center
+	height 9%
+
+#sumbitBtn
+	width 20%
+	height 50%
+	background-color awesomeBrown !important
+	color white !important
+
+
+.helper
+	display inline-block
+	height 100%
+	vertical-align middle
+.checkbox_section
+	text-align center
+	background-color awesomeBrown
+	color awesomeDarkPurple
+
+.error > input
+	border 1px solid red !important
+
+	
+			
+		
+
+	
+	

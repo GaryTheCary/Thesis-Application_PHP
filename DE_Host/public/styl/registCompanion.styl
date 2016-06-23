@@ -1,0 +1,114 @@
+@import "jeet"
+@import "util.styl"
+
+body
+  margin 0px
+  background-color awesomeDarkPurple
+  width 100%
+  height 100%
+
+.spaceholder
+  height 4.5%
+  width 100%
+
+.nSpaceholder
+  height 2.5%
+  width 100%
+
+.miniSpaceholder
+  width 100%
+  height 1.5%
+
+.description
+  center(40%)
+  text-align center
+  fontRegular()
+  color awesomeDarkPurpleII
+  font-size 1.05rem
+  border-radius 5px
+  border 1px solid awesomeBrown
+  background-color awesomeBrown
+
+ #link
+   center(40%)
+   text-align center
+   fontRegular()
+   color awesomeBrown
+   font-size 1.05rem
+ a:link
+   text-decoration: underline
+   color awesomeBrown
+ a:hover
+   text-decoration underline
+   color awesomeBrown
+ a:visted
+   text-decoration none
+   color awesomeBrown
+
+.verify
+  center(40%)
+
+.section
+  height 4.5%
+  width 100%
+  text-align center
+
+.tag
+  display table
+  position relative
+  span(1/5)
+  height 100%
+  text-align center
+  fontRegular()
+  vertical-align middle
+.tag > p
+  display table-cell
+  text-align center
+  vertical-align middle
+  color awesomeBrown
+
+.col
+  span(7/10)
+  height 100%
+.col > input
+  background-color transparent !important
+  color awesomeBrown !important
+  border 1px solid awesomeBrown !important
+
+.line
+  height .15%
+  width 100%
+  background-color awesomeBrown
+
+.helper
+  display inline-block
+  height 100%
+  vertical-align middle
+.wcol
+  width 40%
+  height 100%
+  text-align center
+  vertical-align middle
+
+#sumbitBtn
+  text-align center
+  background-color awesomeBrown !important
+  color white !important
+
+#submitsection
+  @extends .section
+  vertical-align middle
+
+.error > input
+  border 1px solid red !important
+
+.error_list
+  @extends .section
+  fontRegular()
+  color awesomeBrown
+  height 3%
+
+
+
+
+
