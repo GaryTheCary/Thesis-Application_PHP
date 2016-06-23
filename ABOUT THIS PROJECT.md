@@ -8,3 +8,5 @@ subjects' guesture in real-time.
 This application also allow users to send customized messages to the client application (developed in Python).
 
 This application is designed and developed in Laravel.
+
+For more about this project please visit http://www.xiangrenzheng.com/thesis/
